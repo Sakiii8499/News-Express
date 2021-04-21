@@ -1,0 +1,512 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.languages {
+background: #dad8d9;
+padding-top: 1rem;
+padding-bottom: 1rem;
+text-align: center;
+}
+
+.languages li{
+list-style: none; 
+display: inline;
+}
+
+.languages li a {
+text-decoration: none;
+color: black;
+font-size: 1.5rem;
+font-weight: normal;
+}
+
+.languages li a:hover{
+border-bottom: .2rem solid black;
+}
+
+.newslanguages li a{
+    padding: 1rem;
+}
+
+div {
+display: block;
+}
+
+.header-section{
+display: flex;
+padding-bottom: .5rem;
+}
+
+.ie-logos{
+width: 40rem;
+display: block;
+padding-top: 1.2rem;
+margin: auto;
+}
+
+#daily{
+font-size: 5rem;
+font-weight: bold;
+text-align: center;
+font-family: 'Orelega One';
+}
+
+.active{
+border-bottom: .2rem solid #ff0303;
+}
+
+.active:hover{
+    border-bottom: none;
+}
+
+.datebox {
+display: block;
+font-weight: 60rem;
+margin-top: .7rem;
+}
+
+.datebox, .followbox {
+color: #000;
+font-size: 1.5rem;
+text-align: center;
+}
+
+.followustxt {
+display: block;
+font-size: 1.5rem;
+font-weight: 700;
+margin-bottom: 1rem;
+padding-top: .5rem;
+padding-left: 2rem;
+}
+
+.facebook{
+padding-right: 1rem;
+padding-left: 2rem;
+}
+
+body {
+line-height: 1;
+}
+
+body, dfn, div, footer, h1, h2, h3, h4, h5, h6, header, img, label, li, mark, nav, ol, p, section, span, 
+ul{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+vertical-align: baseline;
+}
+
+#fixednavbar{
+    margin-bottom: 1.5rem;
+}
+
+#navbar, .add-first, .datebox {
+list-style: none;
+text-align: center;
+}
+
+#navbar a {
+text-decoration: none;
+}
+
+nav {
+background: black;
+}
+
+#navbar>li {
+display: inline-block;
+position: relative;
+}
+
+#navbar>li>a {
+display: block;
+font-size: 1.7rem;
+line-height: 2.6rem;
+padding: .4rem 1.3rem 0;
+color: white;
+}
+
+#navbar>li>a:hover{
+	background-color: rgb(78, 78, 78) ;
+}
+
+.breaking-news-section{
+	padding: 0 3rem 0 3rem;
+	display: flex;
+}
+
+.breaking-news-section a{
+    font-weight: normal;
+    color: white;
+}
+#btext{
+	width: 20rem;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	color:#e08b6c;
+	background-color: black;
+	font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.breaking-news{
+	padding: 3rem;
+	color: #fff;
+	text-decoration: none;	
+	background-color: #000;
+    font-size: 1.6rem;
+}
+
+.breaking-news:hover,.social-icons i:hover{
+	color:orange;
+	cursor: pointer;
+}
+
+.bntime{
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.705);
+	padding: 0 1rem;
+	font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.mycoronaCover{
+display: flex;
+width: 50%;
+box-shadow: .2rem .2rem .5rem black;
+border-radius: 1.5rem;
+padding: .5rem 2%;
+margin: auto;
+text-align: center;
+}
+
+.mycoronaCover li{
+    font-size: 1.4rem;
+}
+
+.mycoronaCover h3{
+text-align:center;
+cursor:pointer;
+background:#f5f5f5;
+color:#dc0a0a;
+padding: .5rem 0 .5rem 0;
+font-size: 1.5rem;
+font-weight: 600;
+border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.mycoronaCover .counter-india ul{
+display: table;
+padding:.4rem 1.2rem .5rem;
+list-style:none;
+text-align: center;
+cursor:pointer;
+}
+
+.mycoronaCover .worldFigure ul{
+border-left:none
+}
+
+.mycoronaCover .coronaTitle{
+font-size:1.2rem;
+color:#202124;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.mycoronaCover .counter-india ul li{
+border-right: .1rem solid #eee;
+display: table-cell;
+table-layout: fixed;
+width: 25%;
+}
+
+.mycoronaCover .counter-india ul li:last-child{
+border-right: 0rem;
+}
+
+.title a {
+    font-weight: bold;
+}
+
+.mycoronaCover .counter-india .coronaNumber{
+font-size:1.3rem;
+font-weight: 600;
+color: #000;
+}
+
+.counter-india{
+width:100%;
+border: .1rem solid #eee;
+border-radius: 1rem;
+margin-right: 1rem;
+}
+
+.worldFigure{
+margin-left: 2rem;
+}
+
+.mycoronaCover .covidText{
+width:15.5rem;
+font-size:2.5rem;
+font-weight:600;
+line-height:2.2rem;
+text-transform:uppercase;
+padding-top: 1.2rem;
+}
+
+.covidTable{
+display: flex;
+}
+
+.mycoronaCover .covidText small{
+display: block;
+font-size: 1.7rem;
+color:#dc0a0a;
+}
+
+.covidText{
+    margin-top: none;
+}
+
+.line{
+    margin-top: 2rem;
+}
+
+.container{
+    width: 77%;
+    margin: auto;
+    background-color: white;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: .2rem .2rem .5rem;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: none;
+}
+
+.container a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container h2{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-family: Helvetica;
+    padding-top: .8rem;
+    padding-bottom: 1.5rem;
+    margin-top: .6rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+}
+
+.container p{
+    font-family: 'Roboto', sans-serif;
+}
+.x{
+    padding-left: 1rem;
+    display: inline-block;
+}
+
+.x img{
+    border-radius: 1rem;
+    width: 45rem;
+    height: 27rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+
+.y h2{
+    font-weight: normal;
+    font-size: 2.2rem;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.y p{
+    font-size: 1.6rem;
+    margin-top: 2.5rem;
+    text-align: justify;
+}
+
+.z{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    margin-bottom: 1rem;
+}
+
+.readFull{
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.dateTime{
+    margin-left: 2rem;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.dateTime, .readFull{
+    margin-top: 1.5rem;
+}
+
+#red{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: .3rem;
+    padding-left: .4rem;
+    border-color: rgb(187, 187, 187);
+}
+
+#red:hover{
+    border-color: black;
+}
+
+ footer{
+     background-color: #000;
+    }
+
+
+.trending-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.trending-head {
+    color: rgb(120, 118, 119);
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-bottom: 1.8rem;
+    text-transform: uppercase;
+    border-bottom: 1px solid rgb(79, 79, 87);
+    padding: 1.5rem .0rem 1.0rem;
+}
+
+.trending-list li {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.8rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    position: relative;
+    width: 25%;
+}
+
+.trending-list li a {
+    color: rgb(238, 238, 238);
+    text-transform: capitalize;
+}
+
+.trending-list li::before {
+    content: "";
+    height: .8rem;
+    left: .0rem;
+    position: absolute;
+    top: .4rem;
+    width: .8rem;
+    background: rgb(117, 117, 117);
+    border-radius: 50%;
+}
+
+.trending-sec {
+    max-width: 100rem;
+    position: relative;
+    width: 100%;
+    margin: 0rem auto;
+    overflow: hidden;
+    padding: 0rem;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:hover, .g-express-group li a:hover {
+    color: orange;
+}
+
+.g-footer-block {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: .1rem solid rgb(79, 79, 87);
+    border-top: .1rem solid rgb(79, 79, 87);
+    padding: 2rem 0rem;
+}
+
+.g-footer-title {
+    color: rgb(120, 118, 119);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+}
+
+.g-footer-sec {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+}
+.g-footer-sec2 {
+    padding-left: 3rem;
+    width: 30%;
+}
+
+#hidebor{
+    border-right: hidden;
+}
+.g-express-group {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    border-right: .1rem solid rgb(79, 79, 87);
+}
+.g-express-group li {
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: 50%;
+    padding: .5rem;
+}
+
+.g-footer-block {
+    display: flex;
+    border-bottom: .1rem solid rgb(79, 79, 87);
+    border-top: .1rem solid rgb(79, 79, 87);
+    padding: 2rem 0rem;
+    justify-content: center;
+}
+
+.trending-head{
+    text-align: center;
+}
+.g-express-group li a {
+    color: rgb(238, 238, 238);
+    text-decoration: none;
+}
+
+.g-foot .privacy {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    color: rgb(126, 130, 142);
+    text-align: center;
+    padding: .8rem;
+}
+
+
+
+

@@ -1,0 +1,275 @@
+
+
+@media(max-width:1285px){
+    .dateTime, .readFull{
+        margin-top: 0.3rem;
+    }
+    .z{
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(max-width:1100px){
+    .mycoronaCover .counter-india .coronaNumber{
+        font-size: 1.1rem;
+    }
+    .mycoronaCover .coronaTitle{
+        font-size: 1.1rem;
+    }
+}
+
+@media(max-width:900px){
+    .container{
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 
+        'x x'
+        'y y';
+        margin-bottom: 2rem;
+    } 
+    .x{
+        grid-area:x;
+        padding-left: 0rem;
+    }
+    .y{
+        grid-area:y;
+    }
+    .z{
+        grid-area: z;
+    }
+    
+    .x img{
+        width: 35rem;
+        height: 20rem;
+    }
+    .mycoronaCover{
+        width: 70%;
+    }
+    .mycoronaCover .counterTitle .coronaNumber{
+        font-size: 1rem;
+    }
+    .mycoronaCover .coronaTitle{
+        font-size: 1rem;
+    }
+
+    .languages li a {
+        font-size: 1.3rem;
+    }
+    .line{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+.trending-list li {
+    font-size: 1.3rem;
+}
+.g-express-group li {
+    font-size: 1.3rem;
+}
+.trending-sec{
+    margin-left: 3%;
+}
+.trending-head, .g-footer-title{
+    font-size: 1.4rem;
+}
+footer{
+    overflow: hidden;
+}
+}
+
+@media(min-width:901px) and (max-width:1250px){
+    .container{
+        width: 90%;
+    }
+}
+
+@media(min-width:901px) and (max-width:1100px){
+    .x img{
+        width: 38rem;
+        height: 25rem;
+    }
+    .container{
+        width: 95%;
+        font-size: 1.5rem;
+    }
+    .y p{
+        margin-top: 1rem;
+    }
+    .y h2{
+        margin-bottom: 0rem;
+    }
+    .mycoronaCover{
+        width: 60%;
+        }
+}
+
+@media(max-width:768px){
+    .mycoronaCover{
+        width: 80%;
+    }
+    .mainnav{
+        display: flex;
+        justify-content: center;
+    }
+    .trending-list li {
+        width: 50%;
+    }
+    .trending-list {
+        display: grid;
+       grid-template-columns: 1fr 1fr;
+}
+
+.trending-list li{
+    width: 100%;
+}
+.trending-head{
+    text-align: center;
+}
+
+.g-footer-sec {
+    width: 100%;
+}
+
+.g-footer-block {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.g-express-group{
+    display: flex;
+    flex-direction: column;
+    border-right: hidden;
+}
+
+.g-footer-sec2 {
+    width: 100%;
+}
+}
+
+@media(max-width:730px){
+.mycoronaCover .covidText{
+    font-size: 2rem;
+}
+.mycoronaCover .covidText small{
+    font-size: 1.5rem;
+}
+#navbar{
+    display: flex;
+    overflow: scroll;
+}
+#navbar>li>a{
+    font-size: 1.5rem;
+}
+}
+
+ 
+@media(max-width:650px){
+    .mycoronaCover{
+        display: flex;
+        width: 60%;
+        text-align: center;
+       }
+       #hideinphn{
+           display: none;
+       }
+       .counter-india{
+           margin-right: 0rem;
+       }
+       .breaking-news{
+        padding: 1rem;
+       }
+       #btext{
+           font-size: 1.1rem;
+           margin-top: 0.5rem;
+           margin-bottom: 0.5rem;
+           width: 25%;
+       }
+    .breaking-news{
+        font-size: 1.2rem;
+    }
+    .bntime{
+        margin-top: 0.5rem;
+    }
+}
+
+@media(max-width:650px){
+    #btext{
+        width: 40%;
+}
+.followustxt, .facebook, .twitter{
+    display: none;
+}
+}
+
+@media(max-width:460px){
+    .mycoronaCover{
+        width: 90%;
+    }
+    .breaking-news-section{
+        padding: 0 1rem 0 1rem;
+    }
+   
+    #daily{
+        font-size: 3.5rem;
+    }
+
+    .datebox {
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem;
+    }
+    .ie-logos{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: none;
+    }
+    .header-section {
+        padding-bottom: 0rem;
+    }
+}
+
+@media(max-width:400px){
+.x img{
+    width: 28rem;
+    height: 18rem;
+}
+.mycoronaCover{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 65%;
+}
+.covidText{
+    margin: auto;
+}
+.mycoronaCover .covidText{
+    padding-top: 0rem;
+    font-size: 1.7rem;
+}
+.mycoronaCover {
+    font-size: 1.3rem;
+}
+.mycoronaCover h3{
+    font-size: 1.2rem;
+}
+.mycoronaCover .covidText, .mycoronaCover .covidText small{
+display: inline;
+text-align: center;
+width: 100%;
+margin-bottom: 0.6rem;
+}
+.mycoronaCover .covidText small{
+    font-size: 1.2rem;
+}
+
+.mycoronaCover{
+    display: flex;
+    flex-direction: column;
+}
+}
+
+@media(max-width:365px){
+    .languages li a{
+        font-size: 1rem;
+    }
+}

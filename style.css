@@ -369,6 +369,8 @@ color:#dc0a0a;
 
 #red:hover{
     border-color: black;
+    background-color: #000;
+    color: white;
 }
 
  footer{
@@ -506,7 +508,3 @@ footer a:hover, .g-express-group li a:hover {
     text-align: center;
     padding: .8rem;
 }
-
-
-
-
